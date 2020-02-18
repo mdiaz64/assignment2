@@ -1,56 +1,63 @@
- h2,
- h3
-     {
-     color: coral;
-     font-family: fantasy;
-     font-weight: 600;
-     font-size: 1.5em;
-     background-color: #a155be
- }
+html {
 
- body {
-     background-color: #a155be;
+    color: #ccc;
+    box-sizing: border-box;
+    margin: 0;
+}
 
- }
+h2,
+h3 {
+    color: coral;
+    font-family: fantasy;
+    font-weight: 600;
+    font-size: 1.5em;
+    background-color: #a155be
+}
 
- main {
-     background-color: #a155be;
- }
+body {
+    background-color: #a155be;
 
- #somename {
-     color: firebrick;
-     font-size: 3.2em;
-     font-family: cursive;
-     border: 5px solid #5c5ca8;
-     padding-bottom: 15px;
-     padding-top: 10px;
-     padding-left: 15px;
-     border-radius: 15px;
- }
+}
 
- .somename {
-     color: #efe9dd;
-     font-size: 2.2em;
-     font-family: sans-serif;
-     border: 5px solid #5c5ca8;
-     padding-bottom: 15px;
-     padding-top: 10px;
-     padding-left: 15px;
-     border-radius: 15px;
- }
+main {
+    background-color: #a155be;
+}
 
- h1,
- h2,
- h3,
- p {
-     
-     background: #a155be;
- }
+#somename {
+    color: firebrick;
+    font-size: 3.2em;
+    font-family: cursive;
+    border: 5px solid #5c5ca8;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-radius: 15px;
+}
 
- .peanut {
-     color: blue
- }
+.somename {
+    color: #efe9dd;
+    font-size: 2.2em;
+    font-family: sans-serif;
+    border: 5px solid #5c5ca8;
+}
 
- main h1 p h2 {
-     color: wheat;
- }
+h1,
+h2,
+h3,
+h4,
+p,
+
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #a155be;
+}
+
+
+.peanut {
+    color: blue
+}
+
+main h1 p h2 {
+    color: wheat;
+}
