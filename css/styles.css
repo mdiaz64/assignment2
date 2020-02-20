@@ -1,6 +1,4 @@
 html {
-
-    color: #ccc;
     box-sizing: border-box;
     margin: 0;
 }
@@ -11,17 +9,23 @@ h3 {
     font-family: fantasy;
     font-weight: 600;
     font-size: 1.5em;
-    background-color: #a155be
+    background-color: #fff;
 }
 
 body {
-    background-color: #a155be;
-
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/logo-food.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    
+    
 }
 
 main {
-    background-color: #a155be;
+    background-color: #fff;
 }
+
+
 
 #somename {
     color: firebrick;
@@ -46,18 +50,15 @@ h2,
 h3,
 h4,
 p,
-
     width: 500px;
     margin-right: auto;
     margin-left: auto;
-    background: #a155be;
-}
 
 
-.peanut {
-    color: blue
+#Information {
+    color: aqua;
+    background-color: aqua;
+    
+    
 }
 
-main h1 p h2 {
-    color: wheat;
-}
