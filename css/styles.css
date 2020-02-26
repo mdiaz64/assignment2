@@ -13,12 +13,12 @@ h3 {
 }
 
 body {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/logo-food.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/logo-food.jpg");
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    
-    
+
+
 }
 
 main {
@@ -41,20 +41,15 @@ main {
 .somename {
     color: firebrick;
     font-size: 2.2em;
-    font-family: sans-serif;
+    font-family: fantasy;
     border: 5px solid #5c5ca8;
 }
 
-h1 h2 h3 h4 
-{
+h1 h2 h3 h4 {
     width: 500px;
     margin-right: auto;
     margin-left: auto;
-
-}
-.Information {
-    color: blueviolet;
-  
-    
 }
 
+
+}
